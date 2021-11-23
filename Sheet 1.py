@@ -120,10 +120,3 @@ newData.update({'Name':name_list2})
 newData.update({'Subject':sub_list2})
 newData.update({'Ratings':rate_list2})
 print(newData)
-
-#16
-up = eval(input("UP "))
-down = eval(input("DOWN "))
-left = eval(input("LEFT "))
-right = eval(input("RIGHT "))
-print(int((((up-down)*2)+((left-right)2))*0.5)
