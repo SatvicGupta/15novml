@@ -120,3 +120,23 @@ newData.update({'Name':name_list2})
 newData.update({'Subject':sub_list2})
 newData.update({'Ratings':rate_list2})
 print(newData)
+
+#16
+x=0
+y=0
+while(True):
+    string4=(input("enter the instructions"))
+    if (string4 == ""):
+        break
+    else:
+        string4=string4.split(' ')
+        if string4[0]=="UP":
+            y+=int(string4[1])
+        elif string4[0]=="DOWN":
+            y-=int(string4[1])
+        elif string4[0]=="RIGHT":
+            x+=int(string4[1])
+        elif string4[0]=="LEFT":
+            x-=int(string4[1])
+dist=(((x*2)+(y2))*(1/2))
+print('DISTANCE:',int(dist)
